@@ -58,7 +58,7 @@ ul {
   line-height: 1.8;
 }
 
-/* Buttons and Links */
+/* Links */
 a {
   color: #0077cc;
 }
@@ -102,4 +102,35 @@ img {
 
 .button:hover {
   background-color: #005999;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
 }
